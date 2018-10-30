@@ -1,0 +1,57 @@
+{
+  "name": "react-redux-act-boilerplate",
+  "version": "0.1.0",
+  "author": "Maksim Golitsyn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMaximal/react-redux-act-boilerplate.git"
+  },
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "npm run eslint"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "history": "^4.7.2",
+    "moment": "^2.22.2",
+    "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.0",
+    "redux-act": "^1.7.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0"
+  }
+}

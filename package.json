@@ -1,0 +1,24 @@
+{
+  "name": "opensky-react-dashboard",
+  "version": "1.0.0",
+  "description": "OpenSky is a free service, that shows a near-realtime information of all flights around the world For this task ============= 1. Create a 2 page web application with the following pages -> login -> home-page dashboard",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-config-react-app": "^3.0.4",
+    "eslint-plugin-flowtype": "^3.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
